@@ -1,14 +1,16 @@
-//
-//  main.c
-//  prime numbers
-//
-//  Created by Sanaa Kumar on 04/09/25.
-//
-
-#include <stdio.h>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+#include<stdio.h>
+int main(void){
+    int i,j;
+    printf("enter the value of j");
+    scanf("%d",&j);
+    for (i=1;i<=20;i++)
+    {
+        if(i%j!=0)
+        {
+            printf("%d",i);
+        }
+    }
 }
+    
+
+       
